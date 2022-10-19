@@ -1,8 +1,6 @@
 ---
 title: Opis Technologii
 ---
-Dogłębny Opis Technologii zostanie umieszczony w [późniejszym terminie](../analiza-wykonalnosci.md/#kamienie_milowe)
-
 # Matrix
 ![Wizualizacja protokołu](https://yuhu.ddns.net/images/service_matrix_network.png)
 
@@ -12,27 +10,33 @@ Z technicznego punktu widzenia jest to protokół komunikacyjny warstwy aplikacj
 
 
 # LDAP
-**Lightweight Directory Access Protocol (LDAP)** – protokół przeznaczony do korzystania z usług katalogowych, bazujący na standardzie X.500. Jest to również nazwa usługi katalogowej pozwalającej na wymianę informacji za pośrednictwem TCP/IP.
+**Protokół LDAP (Lightweight Directory Access Protocol)** definiuje standardową metodę dostępu do informacji i ich aktualizacji w katalogu (bazie danych) lokalnym lub zdalnym w przypadku modelu klient/serwer.
 
-LDAP jest wykorzystywany praktycznie w adresacji sieci Internet/Intranet w celu zapewnienia niezawodności, skalowalności i bezpieczeństwa danych. W odróżnieniu od X.500 nie potrzebuje ani szerokiego pasma, ani dużej mocy obliczeniowej. Pracuje w oparciu o protokół TCP/IP lub inne połączeniowe usługi transportu. Dane grupowane są w strukturze przypominającej drzewo katalogów. Każdy obiekt jest jednoznacznie identyfikowany poprzez swoje położenie w drzewie, tzw. Distinguished Name (DN).
-
-LDAP w wielu sytuacjach uznawane jest za rozwiązanie lepsze od innych usług katalogowych, ponieważ korzystając z TCP/IP (które działa tylko w warstwie transportowej modelu OSI), daje niezwykle szybkie odpowiedzi na żądania zgłaszane przez klienta.
+Protokół jest zoptymalizowany pod kątem czytania, przeglądania i wyszukiwania katalogów. Został on początkowo zaprojektowany jako niewymagający protokół dla X.500 Directory Access Protocol. Metoda LDAP jest używana przez klaster hostów w celu umożliwienia scentralizowanego uwierzytelniania oraz dostępu do informacji o użytkownikach i grupach. Ta funkcja jest przeznaczona do użycia w środowisku klastrowym w celu przechowywania informacji o uwierzytelnianiu, użytkownikach i grupach, wspólnych w obrębie klastra.
+Obiekty w protokole LDAP są zapisane w hierarchicznej strukturze, znanej jako drzewo informacji katalogu (Directory Information Tree - DIT). Dobry katalog jest uruchamiany ze strukturalnym układem drzewa DIT. Drzewo DIT powinno być starannie zaprojektowane przed zaimplementowaniem protokołu LDAP jako narzędzia uwierzytelniania.
 
 
 # OAuth 2.0
-OAuth 2.0 to baranżowy standard wśród protokołów autoryzacji. OAuth 2.0 koncentruje się na prostocie programisty klienta, zapewniając jednocześnie określone przepływy autoryzacji dla aplikacji internetowych, aplikacji komputerowych, telefonów komórkowych i urządzeń w salonie. Ta specyfikacja i jej rozszerzenia są opracowywane w ramach grupy roboczej IETF OAuth.
+OAuth 2.0 jest otwartym protokołem pozwalającym na budowanie bezpiecznych mechanizmów autoryzacyjnych z wykorzystaniem różnych platform, np. aplikacji mobilnych lub WWW, ale również klasycznego oprogramowania. Lepiej oddający realia jest jednak tytuł dokumentu `RFC 6749` zawierającego specyfikację omawianego standardu. Znajduje się tam informacja, że OAuth 2.0 to framework autoryzacyjny („The OAuth 2.0 Authorization Framework”). Słowo „framework” ma tutaj kluczowe znaczenie. W przeciwieństwie do strony projektu nie pojawia się tam stwierdzenie „protokół”. 
+Jaka jest różnica? W przypadku protokołu wymagane jest ścisłe trzymanie się zasad określonych w specyfikacji. Podczas studiowania dokumentacji dotyczącej OAuth można zauważyć jednak, że w wielu miejscach specyfikacja luźno narzuca kwestię implementacji danych elementów standardu. Pozostawia to pole do interpretacji, czasem nadmiernej.
 
-# OpenID Connect
-OpenID Connect 1.0 to prosta warstwa tożsamości oparta na protokole OAuth 2.0. Umożliwia Klientom weryfikację tożsamości Użytkownika końcowego na podstawie uwierzytelnienia przeprowadzonego przez Serwer Autoryzacyjny, a także uzyskanie podstawowych informacji o profilu Użytkownika końcowego w sposób interoperacyjny i podobny do REST.
+Docelowo OAuth 2.0 ma służyć delegacji autoryzacji do zasobów. Właściciel określonego zasobu może udzielić na określony czas oraz w zdefiniowanym z góry zakresie dostępu innemu podmiotowi. Przechodząc od opisów teoretycznych do praktycznego przykładu, można przytoczyć sytuację, w której udzielamy zewnętrznej aplikacji praw do odczytu danych z profilu Google, Facebooka lub Linkedin. Klasyczny scenariusz składa się z następujących kroków:
 
-OpenID Connect pozwala klientom wszystkich typów, w tym klientom internetowym, mobilnym i JavaScript, żądać i otrzymywać informacje o uwierzytelnionych sesjach i użytkownikach końcowych. Pakiet specyfikacji jest rozszerzalny, umożliwiając uczestnikom korzystanie z opcjonalnych funkcji, takich jak szyfrowanie danych tożsamości, wykrywanie dostawców OpenID i wylogowanie, gdy ma to dla nich sens.
+1. Aplikacja chce uzyskać dane użytkownika, pobierając je z bazy dostawcy tożsamości, w tym celu wykonywane jest przekierowanie do serwera autoryzującego.
+2. Serwer autoryzujący przedstawia formularz z informacją o tym, że aplikacja chce uzyskać dostęp do określonych elementów profilu (np. pobrać podstawowe dane personalne oraz adres e-mail).
+3. Użytkownik w zależności od tego, czy akceptuje wymagania aplikacji, wydaje jej autoryzację lub nie.
+4. W przypadku udzielenia autoryzacji serwer wykonuje przekierowanie z powrotem do aplikacji, a ta otrzymuje specjalny token, za pomocą którego może pobrać wybrane dane z profilu użytkownika.
+
+Głównym celem całego opisanego procesu jest uzyskanie wspomnianego tokenu będącego w większości przypadków wygenerowanym losowo ciągiem znaków o określonej długości. Token przesyłany jest następnie do serwera zasobów. Serwer ten z kolei odbiera go i sprawdza, czy podmiot, który go przedstawia, ma autoryzację do zasobów oraz operacji, które chce wykonać.
+
+# Klucze używane w szyfrowaniu End-to-End w protokole Matrix
+
+- **ED25519** - to system klucza publicznego oparty na krzywej eliptycznej, powszechnie używany do uwierzytelniania SSH. Wcześniej klienci EC2 mogli używać kluczy opartych na RSA do uwierzytelniania w instancjach EC2, gdy potrzebowali nawiązać bezpieczne połączenia w celu wdrożenia instancji w EC2 i zarządzania nimi.
+- **Curve25519 identity key pair** - to system kryptograficzny z kluczem publicznym, który można wykorzystać do ustanowienia wspólnego sekretu. W systemie Matrix każde urządzenie ma długowieczny klucz tożsamości Curve25519, który jest używany do nawiązywania sesji Olm z tym urządzeniem. Klucz prywatny nigdy nie powinien opuszczać urządzenia, ale część publiczna jest podpisana kluczem linii papilarnych Ed25519 i opublikowana w sieci.
+- **Curve25519 one-time keys** - Oprócz klucza tożsamości każde urządzenie tworzy pewną liczbę par kluczy Curve25519, które są również używane do ustanawiania sesji Olm, ale mogą być użyte tylko raz. Po raz kolejny część prywatna pozostaje na urządzeniu. Podczas uruchamiania Alice tworzy pewną liczbę jednorazowych par kluczy i publikuje je na swoim serwerze domowym. Jeśli Bob chce nawiązać sesję Olma z Alicją, musi odebrać jeden z kluczy jednorazowych Alicji i utworzyć nowy własny. Te dwa klucze, wraz z kluczami tożsamości Alicji i Boba, są używane do ustanowienia sesji Olm między Alicją i Bobem.
+- **Megolm encryption keys** - Klucz Megolm służy do szyfrowania wiadomości grupowych (w rzeczywistości służy do uzyskiwania klucza AES-256 i klucza HMAC-SHA-256). Jest inicjowany losowymi danymi. Za każdym razem, gdy wiadomość jest wysyłana, na kluczu Megolm wykonywane jest obliczenie skrótu, aby uzyskać klucz dla następnej wiadomości. W związku z tym możliwe jest udostępnienie bieżącego stanu klucza Megolm użytkownikowi, co pozwala mu odszyfrować przyszłe wiadomości, ale nie przeszłe wiadomości.
+- **Ed25519 Megolm signing key pair** - Kiedy nadawca tworzy sesję Megolm, tworzy również inną parę kluczy podpisujących Ed25519. Służy do podpisywania wiadomości wysyłanych za pośrednictwem tej sesji Megolm w celu uwierzytelnienia nadawcy. Po raz kolejny prywatna część klucza pozostaje na urządzeniu. Część publiczna jest współdzielona z innymi urządzeniami w pokoju wraz z kluczem szyfrującym
 
 # Cel w projekcie
 Planowane jest wykorzystanie jednego lub więcej powyższych standardów w celu integracji z instniejącymi usługami politechniki (konta wykorzystywane przez [oauth.pwr.edu.pl/](oauth.pwr.edu.pl/) i/lub Google)
 
-
-# Źródła
-- Matrix: [en.wikipedia.org](https://en.wikipedia.org/wiki/Matrix_(protocol))
-- LDAP: [pl.wikipedia.org](https://pl.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
-- OAuth2.0: [oauth.net](https://oauth.net/2/)
-- OpenID: [openid.net](https://openid.net/connect/)
