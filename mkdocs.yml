@@ -21,10 +21,6 @@ theme:
 plugins:
   - search
   - awesome-pages
-# - with-pdf:
-#     author: "Krzysztof Ambroży & aaa" 
-#     cover_title: "Hello"
-#     toc_level: 3
 markdown_extensions:
     - toc:
         permalink: True
