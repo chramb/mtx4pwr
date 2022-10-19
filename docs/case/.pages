@@ -1,0 +1,7 @@
+# vi: ft=yaml
+title: CASE
+nav:
+  - Upper-CASE: "upper-case.md"
+  - Lower-CASE: "lower-case.md"
+  - Integrated-CASE: "integrated-case.md"
+  - ...

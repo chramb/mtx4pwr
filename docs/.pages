@@ -1,0 +1,7 @@
+# vi: ft=yaml
+nav:
+  - Strona Główna: "index.md"
+  - Studium Wykonalności: "studium-wykonalnosci"
+  - CASE: "case"
+  - ...
+
