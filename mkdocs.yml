@@ -1,0 +1,15 @@
+site_name: "Projekt: Matrix na PWr"
+theme:
+  name: material
+plugins:
+  - search
+  - awesome-pages
+  - with-pdf:
+      author: "Krzysztof Ambroży & aaa" 
+      cover_title: "Hello"
+      toc_level: 3
+markdown_extensions:
+    - toc:
+        permalink: True
+        baselevel: 3
+        separator: "_"

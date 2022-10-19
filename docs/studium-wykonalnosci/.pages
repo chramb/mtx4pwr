@@ -1,0 +1,6 @@
+# vi: ft=yaml
+title: Studium Wykonalności
+nav:
+  - analiza-wymagan.md
+  - analiza-wykonalnosci.md
+  - ...
