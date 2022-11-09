@@ -30,12 +30,3 @@ title: Podział Narzędzi
 ## Narzędzia do przetwarzania języków (kompilatory, interpretery)
 - Python
 - MkDocs
-
-# Ze względu na funkcję
-
-## Narzędzia do analizy programów
-- Github Dependabot (prawdopodobnie nie będzie potrzeby, wykorzystywany w upstream-ie)
-
-## Narzędzia do testowania
-- Ansible Molecule
-- Testy Manualne
