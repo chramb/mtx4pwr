@@ -3,7 +3,7 @@ title: Analiza Wymagań
 ---
 # Biznesowe
 Politechnika Wrocławska oczekuje stabilnego, bezpiecznego i wygodnego systemu komunikacji na uczelni.
-Który aktualnie spełniany jest głównie przez usługę email dostarczaną przez firmę Google. Jednak nie jest on jedynym, zajęcia i komunikacja prowadzone są również na platformach:
+Który aktualnie spełniany jest głównie przez usługę Emil dostarczaną przez firmę Google. Jednak nie jest on jedynym, zajęcia i komunikacja prowadzone są również na platformach:
 
 - [MS Teams](https://www.microsoft.com/pl-pl/microsoft-teams/group-chat-software)
 - [Zoom](https://pwr-edu.zoom.us/)
@@ -17,7 +17,7 @@ Proponowana alternatywa umożliwiała by integrację z częścią, a w przyszł
 
 Wprowadzenie protokołu Matrix pozwoliłoby na zwiększenie bezpieczeństwa oraz komfortu komunikacji na uczelni oraz pozwoliłoby na stopniowe skonsolidowanie lub całkowite zastąpienie aktualnie używanych rozwiązań.
 
-Protokuł ten był już wykorzystywany w projektach na dużą skalę. Oraz ma wielu proponentów w sferze Open Source co powoduje prężny rozwój aplikacji z nim związanych jak i technologii usprawniających automatyzację oraz zarządzanie samymi usługami.
+Protokół ten był już wykorzystywany w projektach na dużą skalę. Oraz ma wielu proponentów w sferze Open Source co powoduje prężny rozwój aplikacji z nim związanych jak i technologii usprawniających automatyzację oraz zarządzanie samymi usługami.
 
 # Użytkowe
 <!-- Żeby się łatwo używało i było wygodniejsze -->

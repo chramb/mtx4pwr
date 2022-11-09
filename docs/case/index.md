@@ -8,7 +8,7 @@ title: CASE
 - **S**ystem
 - **E**ngineering
 
-**Czyli zastosowanie technologii komputerowej w odniesienu do:**
+**Czyli zastosowanie technologii komputerowej w odniesieniu do:**
 
 - Procesów
 - Technik

@@ -6,10 +6,10 @@ title: Plan Wdrożenia
 
 | Nr | Zadani                                               | Termin     | Czas Trwania |  
 | -- | ---------------------------------------------------- | ---------- | ------------ |
-| 1. | Studium Wykonalnośći                                 | 17.10.2022 | 1 tydzień    |
+| 1. | Studium Wykonalności                                 | 17.10.2022 | 1 tydzień    |
 | 2. | Opis i Planowanie wykonania narzędzi CASE            | 02.11.2022 | 2 tygodnie   |
 | 3. | Konfiguracja Narzędzi                                | 05.11.2022 | 1 tydzień    |
-| 4. | Opis protokołów i wykorzystanch narzędzi             | 10.11.2022 | 1 tydzień    |
+| 4. | Opis protokołów i wykorzystanych narzędzi             | 10.11.2022 | 1 tydzień    |
 | 5. | Implementacja w środowisku lokalnym                  | 16.11.2022 | 5 dni        |
 | 6. | Integracja z systemami teleinformatycznymi i niest.  | 23.11.2022 | 1 tydzień    |
 | 7. | Implementacja w środowisku chmurowym (symulacja pwr) | 06.12.2022 | 2 tygodnie   |

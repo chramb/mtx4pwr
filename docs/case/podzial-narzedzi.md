@@ -21,7 +21,7 @@ title: Podział Narzędzi
 - Terraform
 - Docker/Podman
 
-## Narzędzia do prototypowania
+## Narzędzia do prototypownia
 - Docker
 - Oracle Cloud Infrastructure
 - kvm/qemu/libvirt/virt-manager

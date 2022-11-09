@@ -12,7 +12,7 @@ Koncentrują się na opisie i modelowaniu bez faz implementacji
 - mermaid.live - interfejs graficzny do projektowania diagramów i grafik z pomocą programu mermaidjs.
 - mermaidjs - program generujący grafy i diagramy za pomocą kodu
 - kroki - alternatywny program do mermaidjs
-- DrawIO/Diagrams.net - graficzny program przeglądarkowy ułatwiający reczne tworzenie grafów. Planowane jest wykorzystanie go gdy napotkane zostaną ograniczenia narzędzia MermaidJS. 
+- DrawIO/Diagrams.net - graficzny program przeglądarkowy ułatwiający ręczne tworzenie grafów. Planowane jest wykorzystanie go gdy napotkane zostaną ograniczenia narzędzia MermaidJS. 
 - MkDocs wraz z pluginami - program do generowania dokumentacji oraz tworzenia pdf-ów ze sprawozdaniami. Aktualnie wykorzystywane pluginy oraz nakładki graficzne:
     - theme-material
     - awesome-pages

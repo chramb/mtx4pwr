@@ -20,6 +20,6 @@ Do planowania oraz podziału obowiązków planowane jest użycie narzędzia [Git
 
 # Realizacja projektu
 
-- Cele projektu można znaleźć w podpukcie [Produkt Końcowy](projekt-uslug/produkt-koncowy.md)
+- Cele projektu można znaleźć w podpunkcie [Produkt Końcowy](projekt-uslug/produkt-koncowy.md)
 
 

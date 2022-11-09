@@ -5,7 +5,7 @@ title: Analiza Budżetowa
 
 W miarę możliwości planowane jest wykorzystanie obecnie istniejącej infrastruktury sieciowej Politechniki Wrocławskiej,
 natomiast oprogramowanie implementowane na niej wykorzystywane jest upubliczniane z otwartą licencją (*ang. open source*) m.in. [*Apache 2.0*](https://github.com/matrix-org/synapse/blob/develop/LICENSE). 
-Pozwala ona na badanie, upowrzechnianie, modyfikowanie i korzystanie z produktu bez potrzeby płacenia za nie.
+Pozwala ona na badanie, upowszechnianie, modyfikowanie i korzystanie z produktu bez potrzeby płacenia za nie.
 
 # Pozyskiwanie Funduszy
 

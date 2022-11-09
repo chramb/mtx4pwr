@@ -38,5 +38,5 @@ Głównym celem całego opisanego procesu jest uzyskanie wspomnianego tokenu bę
 - **Ed25519 Megolm signing key pair** - Kiedy nadawca tworzy sesję Megolm, tworzy również inną parę kluczy podpisujących Ed25519. Służy do podpisywania wiadomości wysyłanych za pośrednictwem tej sesji Megolm w celu uwierzytelnienia nadawcy. Po raz kolejny prywatna część klucza pozostaje na urządzeniu. Część publiczna jest współdzielona z innymi urządzeniami w pokoju wraz z kluczem szyfrującym
 
 # Cel w projekcie
-Planowane jest wykorzystanie jednego lub więcej powyższych standardów w celu integracji z instniejącymi usługami politechniki (konta wykorzystywane przez [oauth.pwr.edu.pl/](oauth.pwr.edu.pl/) i/lub Google)
+Planowane jest wykorzystanie jednego lub więcej powyższych standardów w celu integracji z istniejącymi usługami politechniki (konta wykorzystywane przez [oauth.pwr.edu.pl/](oauth.pwr.edu.pl/) i/lub Google)
 

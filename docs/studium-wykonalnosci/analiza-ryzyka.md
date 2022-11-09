@@ -16,10 +16,10 @@ Nie jest on jednak zoptymalizowany pod względem użycia zasobów (duże ilości
 
 Protokół Matrix nie jest publicznie znanym protokołem, jednak jest on już zaadoptowany przez wielkie organizacje które wymagają stabilności i przede wszystkim bezpieczeństwa:
 
-- [Blog: Matrix bazą Francuzkiego Rządowego Komunikatora](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app)
+- [Blog: Matrix bazą Francuskiego Rządowego Komunikatora](https://matrix.org/blog/2018/04/26/matrix-and-riot-confirmed-as-the-basis-for-frances-secure-instant-messenger-app)
 - [Blog: Niemiecki system opieki zdrowotnej wykorzystuje Matrix'a](https://matrix.org/blog/2021/07/21/germanys-national-healthcare-system-adopts-matrix)
 
-Jego open-source’owa natura sprawia, iż już istneieje więcej niż jedna implementacja na każdą ze spodziewanych platform. 
+Jego open-source’owa natura sprawia, iż już istnieje więcej niż jedna implementacja na każdą ze spodziewanych platform. 
 
 Brak chęci adaptacji ze strony niektórych platform lub użytkowników może zostać rozwiązany również z pomocą bridge-y które pozwolą na korzystanie ze starszych wcześniej wykorzystywanych technologii lub pozwolą na wykorzystywanie nowych alternatywnych rozwiązań.
 
