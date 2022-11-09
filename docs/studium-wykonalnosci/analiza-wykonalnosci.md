@@ -8,8 +8,9 @@ Do planowania oraz podziału obowiązków planowane jest użycie narzędzia [Git
 
 # Kamienie milowe
 - [X] Wykonać Studium wykonalności
-- [ ] Analiza i Opis narzędzi typu CASE
-- [ ] Projekt i model wykonany przy pomocy narzędzi typu case
+- [X] Analiza i Opis narzędzi typu CASE
+- [X] Projekt i model wykonany przy pomocy narzędzi typu case
+- [X] Projekt fizycznej infrastruktury
 - [ ] Sposób działania (Opis) technologii wykorzystywanej w projekcie
 - [ ] Analiza Działania w środowisku symulacyjnym
 - [ ] Wdrożenie elementów
