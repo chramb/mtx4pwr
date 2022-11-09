@@ -30,3 +30,4 @@ markdown_extensions:
         custom_checkbox: true
     - tables
     - attr_list
+    - footnotes
