@@ -2,6 +2,6 @@
 mkdocs-pdf.yml
 site/
 venv/
-
+docs/media/
 TODO.md
 *.bak
