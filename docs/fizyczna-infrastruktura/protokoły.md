@@ -63,7 +63,7 @@ poprzez zestaw prostych interfejsów programowania (API). Podstawowym celem proj
 bezpośrednią komunikację typu peer-to-peer, eliminując w ten sposób potrzebę instalacji wtyczek czy ściągania natywnych aplikacji.
 Projekt jest wspierany przez takie firmy jak Apple, Google, Microsoft, Mozilla i Opera. 
 Na obrazku przedstawiony jest schemat działania WebRTC:
-![WeBRTC](https://cdn.ttgtmedia.com/rms/onlineimages/security-tls_1.3_handshake-h.png)
+![WeBRTC](https://cdn.ttgtmedia.com/rms/onlineimages/how_webrtc_works-f_mobile.png)
 
 ## B) HTTP (ang. Hypertext Transfer Protocol)
 Protokół przesyłania dokumentów hipertekstowych to protokół sieci WWW (ang. World Wide Web). Obecną definicję HTTP stanowi RFC 2616.
