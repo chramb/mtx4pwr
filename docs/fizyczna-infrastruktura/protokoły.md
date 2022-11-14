@@ -63,6 +63,7 @@ poprzez zestaw prostych interfejsów programowania (API). Podstawowym celem proj
 bezpośrednią komunikację typu peer-to-peer, eliminując w ten sposób potrzebę instalacji wtyczek czy ściągania natywnych aplikacji.
 Projekt jest wspierany przez takie firmy jak Apple, Google, Microsoft, Mozilla i Opera. 
 Na obrazku przedstawiony jest schemat działania WebRTC:
+
 ![WeBRTC](https://cdn.ttgtmedia.com/rms/onlineimages/how_webrtc_works-f_mobile.png)
 
 ## B) HTTP (ang. Hypertext Transfer Protocol)
@@ -87,7 +88,8 @@ TLS to protokół kryptograficzny, który zapewnia kompleksowe bezpieczeństwo d
 Protokół ten przyjęto jako standardowe rozwinięcie protokołu SSL. TLS jest znany użytkownikom w formie ikony kłódki wyświetlanej w przeglądarkach 
 internetowych po ustanowieniu bezpiecznej sesji. Certyfikat TSL może być również wykorzystywany do innych aplikacji, takich jak poczta email,
 przesyłanie plików, prowadzenia konferencji, komunikatorów internetowych i VoIP, a także do usług internetowych, takich jak DNS i NTP.
-Na obrazku poniżej przedstawiona jest zasada działania najnowszej wersji protokołu TLS 1.3.
+Na obrazku poniżej przedstawiona jest zasada działania najnowszej wersji protokołu TLS 1.3:
+
 ![TLS 1.3](https://cdn.ttgtmedia.com/rms/onlineimages/security-tls_1.3_handshake-h.png)
 
 # **6. Protokół TURN**
