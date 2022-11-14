@@ -29,13 +29,22 @@ Docelowo OAuth 2.0 ma służyć delegacji autoryzacji do zasobów. Właściciel 
 
 Głównym celem całego opisanego procesu jest uzyskanie wspomnianego tokenu będącego w większości przypadków wygenerowanym losowo ciągiem znaków o określonej długości. Token przesyłany jest następnie do serwera zasobów. Serwer ten z kolei odbiera go i sprawdza, czy podmiot, który go przedstawia, ma autoryzację do zasobów oraz operacji, które chce wykonać.
 
-# Klucze używane w szyfrowaniu End-to-End w protokole Matrix
+# Szyfrowaniu End-to-End 
+Jest to proces dążący przede wszystkim do jednego – szyfrowanie danych w taki sposób, aby były możliwe do odczytu tylko dla końcowych użytkowników. Wszystko odbywa się przy wykorzystaniu generowanych kluczy. Po tym odbywa się łączenie z danymi przed momentem przesłania przez sieć, która nie jest zabezpieczona.
+W szyfrowaniu END-TO-END można wymienić trzy typy szyfrowania:
+**kryptografia asymetryczna** – wykorzystywane są dwa klucze: publiczny (do szyfrowania) oraz prywatny (do odszyfrowywania). 
+**kryptografia symetryczna** – w tym przypadku wykorzystywane są również dwa klucze publiczny i prywatny. Dzięki temu dane użytkownika są kodowane i dekodowane. 
+**kryptografia hybrydowa** – pozwala na połączeniu zalet obu systemów, czyli kryptografii symetrycznej i asymetrycznej.
 
-- **ED25519** - to system klucza publicznego oparty na krzywej eliptycznej, powszechnie używany do uwierzytelniania SSH. Wcześniej klienci EC2 mogli używać kluczy opartych na RSA do uwierzytelniania w instancjach EC2, gdy potrzebowali nawiązać bezpieczne połączenia w celu wdrożenia instancji w EC2 i zarządzania nimi.
-- **Curve25519 identity key pair** - to system kryptograficzny z kluczem publicznym, który można wykorzystać do ustanowienia wspólnego sekretu. W systemie Matrix każde urządzenie ma długowieczny klucz tożsamości Curve25519, który jest używany do nawiązywania sesji Olm z tym urządzeniem. Klucz prywatny nigdy nie powinien opuszczać urządzenia, ale część publiczna jest podpisana kluczem linii papilarnych Ed25519 i opublikowana w sieci.
-- **Curve25519 one-time keys** - Oprócz klucza tożsamości każde urządzenie tworzy pewną liczbę par kluczy Curve25519, które są również używane do ustanawiania sesji Olm, ale mogą być użyte tylko raz. Po raz kolejny część prywatna pozostaje na urządzeniu. Podczas uruchamiania Alice tworzy pewną liczbę jednorazowych par kluczy i publikuje je na swoim serwerze domowym. Jeśli Bob chce nawiązać sesję Olma z Alicją, musi odebrać jeden z kluczy jednorazowych Alicji i utworzyć nowy własny. Te dwa klucze, wraz z kluczami tożsamości Alicji i Boba, są używane do ustanowienia sesji Olm między Alicją i Bobem.
-- **Megolm encryption keys** - Klucz Megolm służy do szyfrowania wiadomości grupowych (w rzeczywistości służy do uzyskiwania klucza AES-256 i klucza HMAC-SHA-256). Jest inicjowany losowymi danymi. Za każdym razem, gdy wiadomość jest wysyłana, na kluczu Megolm wykonywane jest obliczenie skrótu, aby uzyskać klucz dla następnej wiadomości. W związku z tym możliwe jest udostępnienie bieżącego stanu klucza Megolm użytkownikowi, co pozwala mu odszyfrować przyszłe wiadomości, ale nie przeszłe wiadomości.
-- **Ed25519 Megolm signing key pair** - Kiedy nadawca tworzy sesję Megolm, tworzy również inną parę kluczy podpisujących Ed25519. Służy do podpisywania wiadomości wysyłanych za pośrednictwem tej sesji Megolm w celu uwierzytelnienia nadawcy. Po raz kolejny prywatna część klucza pozostaje na urządzeniu. Część publiczna jest współdzielona z innymi urządzeniami w pokoju wraz z kluczem szyfrującym
+Szyfrowanie end-to-end ma na celu zapobieganie odczytywaniu lub modyfikacji danych przez osoby inne niż przez prawdziwego nadawcę i odbiorcę. Wiadomości są szyfrowane przez nadawcę, ale strona trzecia nie ma możliwości ich odszyfrowania i przechowuje je w postaci zaszyfrowanej. Odbiorcy pobierają zaszyfrowane dane i odszyfrowują je samodzielnie.
+Ponieważ żadna osoba trzecia nie może odszyfrować przekazywanych lub przechowywanych danych, firmy stosujące takie szyfrowanie nie są w stanie przekazać władzom treści wiadomości swoich klientów.
+W sposobie szyfrowania END-TO-END można zaleźć sporo zalet:
+- zapewnia bezpieczeństwo oraz prywatność danych,
+- masz pewność, że tylko Ty i osoba z drugiej strony możecie przeczytać wysyłane przez Was treści, 
+- pełne szyfrowanie to problem dla przechwytywania przez osoby trzecie twoich wiadomości,
+- jeśli osoba trzecia włamie się do systemu i ukradnie Twoje dane, nie będzie w stanie ich odczytać – na danych jest warstwa szyfrowania, która stanowi dodatkowe,
+ważne informacje są prywatne i bezpieczne,
+- szyfrowanie END-TO-END jest ochroną przed niektórymi cyberatakami (man-in-the-middle, oszustwa phisingowe) – brak możliwości manipulowania wiadomościami.
 
 # Cel w projekcie
 Planowane jest wykorzystanie jednego lub więcej powyższych standardów w celu integracji z istniejącymi usługami politechniki (konta wykorzystywane przez [oauth.pwr.edu.pl/](oauth.pwr.edu.pl/) i/lub Google)
