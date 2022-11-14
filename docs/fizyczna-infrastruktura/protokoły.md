@@ -1,7 +1,7 @@
 ---
 title: Wykorzystywane protokoły
 ---
-# Protokoły szyfrowania używane w Matrixie
+# **Protokoły szyfrowania używane w Matrixie**
 
 ## ED25519
 To system klucza publicznego oparty na krzywej eliptycznej, powszechnie używany do uwierzytelniania SSH.
@@ -30,7 +30,7 @@ Kiedy nadawca tworzy sesję Megolm, tworzy również inną parę kluczy podpisuj
 Służy do podpisywania wiadomości wysyłanych za pośrednictwem tej sesji Megolm w celu uwierzytelnienia nadawcy.
 Po raz kolejny prywatna część klucza pozostaje na urządzeniu. Część publiczna jest współdzielona z innymi urządzeniami w pokoju wraz z kluczem szyfrującym
 
-# Inne protokoły wykorzystywane w Matrixie
+# **Inne protokoły wykorzystywane w Matrixie**
 ## WebRTC (Web Real-Time Communication)
 Wolny i otwartoźródłowy projekt, część standardu HTML5 zapewniająca przeglądarkom internetowym oraz aplikacjom mobilnym możliwość komunikacji w czasie rzeczywistym
 poprzez zestaw prostych interfejsów programowania (API). Podstawowym celem projektu jest umożliwienie komunikacji audio/video na stronach internetowych poprzez
@@ -71,7 +71,7 @@ Protokół ten przyjęto jako standardowe rozwinięcie protokołu SSL. TLS jest 
 internetowych po ustanowieniu bezpiecznej sesji. Certyfikat TSL może być również wykorzystywany do innych aplikacji, takich jak poczta email,
 przesyłanie plików, prowadzenia konferencji, komunikatorów internetowych i VoIP, a także do usług internetowych, takich jak DNS i NTP.
 
-# Protokół TURN 
+# **Protokół TURN**
 To protokół, który pomaga w przechodzeniu przez translatory adresów sieciowych (NAT) lub zapory sieciowe dla aplikacji multimedialnych.
 Może być używany z protokołem kontroli transmisji (TCP) i protokołem datagramów użytkownika (UDP). 
 Jest to najbardziej przydatne dla klientów w sieciach zamaskowanych przez symetryczne urządzenia NAT.
