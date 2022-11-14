@@ -65,7 +65,7 @@ Szyfrowanie komunikacji ma zapobiegać jej przechwytywaniu między klientem i se
 W przeciwieństwie do niezabezpieczonego HTTP, którego serwery nasłuchują na porcie 80, serwery obsługujące HTTPS nasłuchują domyślnie na porcie 443 protokołu TCP.
 Adresy URL protokołu zaczynają się od https://, podczas gdy adresy niezabezpieczonego HTTP od http://.
 
-## TLS
+## TLS (ang. Transport Layer Security)
 TLS to protokół kryptograficzny, który zapewnia kompleksowe bezpieczeństwo danych przesyłanych między aplikacjami przez Internet.
 Protokół ten przyjęto jako standardowe rozwinięcie protokołu SSL. TLS jest znany użytkownikom w formie ikony kłódki wyświetlanej w przeglądarkach 
 internetowych po ustanowieniu bezpiecznej sesji. Certyfikat TSL może być również wykorzystywany do innych aplikacji, takich jak poczta email,
