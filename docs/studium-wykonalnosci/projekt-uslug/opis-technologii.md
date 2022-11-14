@@ -32,13 +32,15 @@ Głównym celem całego opisanego procesu jest uzyskanie wspomnianego tokenu bę
 # Szyfrowaniu End-to-End 
 Jest to proces dążący przede wszystkim do jednego – szyfrowanie danych w taki sposób, aby były możliwe do odczytu tylko dla końcowych użytkowników. Wszystko odbywa się przy wykorzystaniu generowanych kluczy. Po tym odbywa się łączenie z danymi przed momentem przesłania przez sieć, która nie jest zabezpieczona.
 W szyfrowaniu END-TO-END można wymienić trzy typy szyfrowania:
-**kryptografia asymetryczna** – wykorzystywane są dwa klucze: publiczny (do szyfrowania) oraz prywatny (do odszyfrowywania). 
-**kryptografia symetryczna** – w tym przypadku wykorzystywane są również dwa klucze publiczny i prywatny. Dzięki temu dane użytkownika są kodowane i dekodowane. 
-**kryptografia hybrydowa** – pozwala na połączeniu zalet obu systemów, czyli kryptografii symetrycznej i asymetrycznej.
+
+- **kryptografia asymetryczna** – wykorzystywane są dwa klucze: publiczny (do szyfrowania) oraz prywatny (do odszyfrowywania). 
+- **kryptografia symetryczna** – w tym przypadku wykorzystywane są również dwa klucze publiczny i prywatny. Dzięki temu dane użytkownika są kodowane i dekodowane. 
+- **kryptografia hybrydowa** – pozwala na połączeniu zalet obu systemów, czyli kryptografii symetrycznej i asymetrycznej.
 
 Szyfrowanie end-to-end ma na celu zapobieganie odczytywaniu lub modyfikacji danych przez osoby inne niż przez prawdziwego nadawcę i odbiorcę. Wiadomości są szyfrowane przez nadawcę, ale strona trzecia nie ma możliwości ich odszyfrowania i przechowuje je w postaci zaszyfrowanej. Odbiorcy pobierają zaszyfrowane dane i odszyfrowują je samodzielnie.
 Ponieważ żadna osoba trzecia nie może odszyfrować przekazywanych lub przechowywanych danych, firmy stosujące takie szyfrowanie nie są w stanie przekazać władzom treści wiadomości swoich klientów.
 W sposobie szyfrowania END-TO-END można zaleźć sporo zalet:
+
 - zapewnia bezpieczeństwo oraz prywatność danych,
 - masz pewność, że tylko Ty i osoba z drugiej strony możecie przeczytać wysyłane przez Was treści, 
 - pełne szyfrowanie to problem dla przechwytywania przez osoby trzecie twoich wiadomości,
