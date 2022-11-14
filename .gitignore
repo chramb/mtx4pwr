@@ -5,3 +5,4 @@ venv/
 docs/media/
 TODO.md
 *.bak
+*.pdf
