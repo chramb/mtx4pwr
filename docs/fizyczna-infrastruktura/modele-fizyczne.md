@@ -55,15 +55,18 @@ Alternatywnym modelem który można obrać jest podzielenie oddziałów/wydział
 
 **Przykłady podziałów:**
 
-- Przykład inspirowany podziałem e-mail'i:
-	- pracownicy serwer `<imię.nazwisko>:pwr.edu.pl`
-	- studenci `<indeks>:student.pwr.edu.pl`
-- podział na wydziały:
-	- np. `<indeks>:wit.pwr.edu.pl`
+Przykład inspirowany podziałem e-mail'i:
+
+- pracownicy serwer `<imię.nazwisko>:pwr.edu.pl`
+- studenci `<indeks>:student.pwr.edu.pl`
+
+podział na wydziały:
+
+- np. `<indeks>:wit.pwr.edu.pl`
 
 ## Graficzny przykład podziału:
 
-![Graficzny Przykład podziału infrastruktury](/media/diagram-architektury.png)
+![Graficzny Przykład podziału infrastruktury](_img/diagram-architektury.png)
 
 **Zalety**
 

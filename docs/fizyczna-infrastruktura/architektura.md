@@ -29,7 +29,13 @@ Główny proces pythona jest ograniczony do jednego rdzenia procesora co bardzo 
 
 <img src="https://matrix.org/blog/img/2020-11-03-synapse3.png" width="450">
 <!-- ![Synaplse Pub/Sub Model](https://matrix.org/blog/img/2020-11-03-synapse3.png){ width="450" } -->
+<!-- TODO: Naprawić żeby ładnie wyglądało w PDFie
+## Duże zużycie zasobów
 
+Warto zaznaczyć, że federacja z większymi serwerami łączy się ze znacznym zwiększeniem zasobów.
+
+Jednym z sgerowanych rozwiązań jest ograniczenie federacji jedynie do wewnętrznych usług lub w przypadku implementacji monolitycznej wyłączenia jej całkowicie
+-->
 **Materiały referencyjne:**
 
 - [Fakty i Liczby | Politechnika Wrocławska - pwr.edu.pl](https://pwr.edu.pl/uczelnia/informacje-ogolne/fakty-i-liczby)
