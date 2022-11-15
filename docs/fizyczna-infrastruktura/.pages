@@ -1,0 +1,8 @@
+# vi: ft=yaml
+title: Fizyczna Infrastruktura
+nav:
+  - architektura.md
+  - terminologia.md
+  - modele-infrastruktury.md
+  - protokoly.md
+  - ...
