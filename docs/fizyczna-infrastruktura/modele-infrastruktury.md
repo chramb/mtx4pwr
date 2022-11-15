@@ -1,42 +1,6 @@
 ---
-title: Fizyczne modele infrastruktury
+title: Fizyczne Modele Infrastruktury
 ---
-# Terminologia
-## Klient
-
-Jest to aplikacja przeglądarkowa, desktopowa, lub aplikacja mobilna pozwalająca na połączenie z Serwerem (federacją) Matrix. 
-Komunikują się bezpośrednio z serewrem za pomocą *Client-Server API*
-Najpopularniejsze z nich to:
-
-## Serwer Domowy
-*ang. Homeserver*
-
-Serwer z którym łączą się użytkownicy. Jest on złożony z wielu pokoi (niekoniecznie utworzonych na tym serwerze). Dzięki decentralizacji protokołu możliwe jest transparenna rozmowa z użytkownikami połączonymi z innymi serwerami oraz w pokojach na innych serwerach. Komunikują się między innymi serwerami za pomocą *Server-Server API*
-
-## Usługa Aplikacji
-*ang. Application Service*
-
-Są to modułu działające wspólnie z serwerem Domowym pomagające na integrację oraz dodawanie arbitralnych funkcjonalności niezależnej od implementacji serwera.
-
-Przykłady Usług aplikacji:
-
-- Mosty *(bridges)* między innymi protokołami, np. IRC, SMTP
-- Zaawansowane boty/integracje
-
-## Systemy Tożsamości
-*3PIDS - ang. 3rd Party Identity System*
-
-Identyfikatory tożsamości pochodzące z innych systemów, usług lub kontenstów. Przykładami takich kontekstów mogą być:
-
-- adres e-mail
-- konta w serwisach społecznościowych 
-- numery telefonów
-
-W naszm przypadku wykorzystywane będą:
-
-- LDAP - wraz z nr. indeksu
-- OIDC - wykorzystywane z pomocą kont Google wykorzystywanych przez Politechnikę
-
 # Monolityczna Implementacja
 Jednym ze sposobów fizycznej implementacji jest stworzenie jednego domowego serwera (np `matrix.pwr.edu.pl`) i zagregowanie wszystkich użytkowników (studentów, wykładowców, innych pracowników uczelni).
 
@@ -67,6 +31,12 @@ podział na wydziały:
 ## Graficzny przykład podziału:
 
 ![Graficzny Przykład podziału infrastruktury](_img/diagram-architektury.png)
+
+Na powyższej grafice możemy zaobserwować przykładową konfigurację tego typu. Na samej górze (3PID - Google oraz JSOS) widnieją stystemy tożsamości, z których korzystają wsztkie serwery domowe w celu uwierzytelnienia studentów. 
+
+Następnie na środkowym polu (Serwery główne - Synapse) dzięki protokołowi matrix łączą się miedzy sobą pozwalając na łatwą komunikację między wydziałami oraz z pracownikami uczelni.
+
+Pracownicy oraz Studenci natomiast łączyć się będą poprzez różnych dostępnych klientów (Klienci - Element, FluffyChat, itd.) co pozwoli im na łatwy dostęp do komunikacji. Taki układ pozwoliłby na zbalansowanie wykorzystanych zasobów między kilka serwerów logicznych i/lub fizycznych.
 
 **Zalety**
 
