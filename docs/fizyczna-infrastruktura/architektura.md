@@ -5,7 +5,9 @@ title: Architektura Infrastruktury
 Tematem projektu jest wprowadzenie nowego systemu komunikacji na Politechnice Wrocławskiej, 
 jest to duża instytucja (Na głównej stronie widnieje informacja o 23 817 studentach oraz 2 198 nauczycielach akademickich) więc implementacja musi być skalowalna. 
 
-Poniżej poszeżono temat oraz zaproponowano najbardziej obiecujące propozycje pomagające wdrożyć protokół matrix na tak dużą skalę w stabilny sposó”
+Poniżej poszeżono temat oraz zaproponowano najbardziej obiecujące propozycje pomagające wdrożyć protokół matrix na tak dużą skalę w stabilny sposób. 
+
+(Propozycje te obejmują konfiguracje samego programu, opis konfiguracji serwerów/serera fizycznego opisany jest w [późniejszych częściach](modele-infrastruktury.md).
 
 # Problem
 ## Synapse: Monolityczny Proces
