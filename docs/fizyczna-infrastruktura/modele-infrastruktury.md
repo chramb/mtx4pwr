@@ -47,4 +47,6 @@ Pracownicy oraz Studenci natomiast łączyć się będą poprzez różnych dost�
 - Większe zużycie zasobów ze względu na replikację danych
 - Problem: Jeden student - wiele wydziałów[^1]
 
+Oczywistym faktem jednak jest fakt, iż istnieje możliwość studiowania jednego studenta na wielu wydziałach, co komplikuje to proponowaną konfiguracje, ponieważ otrzymałby on wtedy dwa adresy dla każdego wydziału. Ponadto problem ten nie ma oczywistego rozwiązania w samej specyfikacji protokołu poniżej zamieszczono link do najbardziej zbliżonego problemu opisanego na GitHub'ie ze specyfikacją.
+
 [^1]: [GitHub/issue#246 - Decentralised user accounts](https://github.com/matrix-org/matrix-spec/issues/246)
