@@ -17,7 +17,7 @@ Poniżej można zaobserwować graficzną reprezentację serwera działająceg
 
 <!--![Monolityczny Matrix](synapse-monolith.png)-->
 <!-- ![Monolityczny Matrix](https://matrix.org/blog/img/2020-11-03-synapse1.png){ width="450" } -->
-<img src="https://matrix.org/blog/img/2020-11-03-synapse1.png" width="450">
+<img src="https://matrix.org/blog/img/2020-11-03-synapse1.png" width="400">
 # Rozwiązania
 ## [Dendrite](https://matrix-org.github.io/dendrite/): Alternatywna implementacja serwera
 Serwer Domowy Matrix drugiej-generacji napisany w Go. Zbudowany bazując na architekturze mikroserwisów. Zaprojektowany aby działać **wydajnie**, **niezawodnie** oraz **skalowanie**.
@@ -29,7 +29,7 @@ Główny proces pythona jest ograniczony do jednego rdzenia procesora co bardzo 
 
 <!-- Poniżej można zaobserwować rozwinięty zbiór usług oraz ich interakcje, dzięki którym można usprawnić skalowalność serwera synapse. -->
 
-<img src="https://matrix.org/blog/img/2020-11-03-synapse3.png" width="450">
+<img src="https://matrix.org/blog/img/2020-11-03-synapse3.png" width="400">
 <!-- ![Synaplse Pub/Sub Model](https://matrix.org/blog/img/2020-11-03-synapse3.png){ width="450" } -->
 <!-- TODO: Naprawić żeby ładnie wyglądało w PDFie
 ## Duże zużycie zasobów
