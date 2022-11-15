@@ -8,7 +8,7 @@ Matrix to otwarty standard i protokół komunikacyjny. Ma na celu umożliwienie 
 
 Z technicznego punktu widzenia jest to protokół komunikacyjny warstwy aplikacji do sfederowanej komunikacji w czasie rzeczywistym. Zapewnia interfejsy API HTTP i implementacje referencyjne typu open source do bezpiecznej dystrybucji i utrwalania wiadomości w formacie JSON za pośrednictwem otwartej federacji serwerów. Może integrować się ze standardowymi usługami internetowymi za pośrednictwem WebRTC, ułatwiając aplikacje między przeglądarkami.
 
-# 2. LDAP
+# LDAP
 **Protokół LDAP (Lightweight Directory Access Protocol)** definiuje standardową metodę dostępu do informacji i ich aktualizacji w katalogu (bazie danych) lokalnym lub zdalnym w przypadku modelu klient/serwer.
 
 Protokół jest zoptymalizowany pod kątem czytania, przeglądania i wyszukiwania katalogów. Został on początkowo zaprojektowany jako niewymagający protokół dla X.500 Directory Access Protocol. Metoda LDAP jest używana przez klaster hostów w celu umożliwienia scentralizowanego uwierzytelniania oraz dostępu do informacji o użytkownikach i grupach. Ta funkcja jest przeznaczona do użycia w środowisku klastrowym w celu przechowywania informacji o uwierzytelnianiu, użytkownikach i grupach, wspólnych w obrębie klastra.
@@ -64,7 +64,7 @@ bezpośrednią komunikację typu peer-to-peer, eliminując w ten sposób potrzeb
 Projekt jest wspierany przez takie firmy jak Apple, Google, Microsoft, Mozilla i Opera. 
 Na obrazku przedstawiony jest schemat działania WebRTC:
 
-![WeBRTC](https://cdn.ttgtmedia.com/rms/onlineimages/how_webrtc_works-f_mobile.png)
+<img src="https://cdn.ttgtmedia.com/rms/onlineimages/how_webrtc_works-f_mobile.png" width="600" />
 
 ## HTTP (ang. Hypertext Transfer Protocol)
 Protokół przesyłania dokumentów hipertekstowych to protokół sieci WWW (ang. World Wide Web). Obecną definicję HTTP stanowi RFC 2616.
@@ -90,9 +90,9 @@ internetowych po ustanowieniu bezpiecznej sesji. Certyfikat TSL może być równ
 przesyłanie plików, prowadzenia konferencji, komunikatorów internetowych i VoIP, a także do usług internetowych, takich jak DNS i NTP.
 Na obrazku poniżej przedstawiona jest zasada działania najnowszej wersji protokołu TLS 1.3:
 
-![TLS 1.3](https://cdn.ttgtmedia.com/rms/onlineimages/security-tls_1.3_handshake-h.png)
+<img src="https://cdn.ttgtmedia.com/rms/onlineimages/security-tls_1.3_handshake-h.png" width="400" />
 
-# 6. Protokół TURN
+# Protokół TURN
 To protokół, który pomaga w przechodzeniu przez translatory adresów sieciowych (NAT) lub zapory sieciowe dla aplikacji multimedialnych.
 Może być używany z protokołem kontroli transmisji (TCP) i protokołem datagramów użytkownika (UDP). 
 Jest to najbardziej przydatne dla klientów w sieciach zamaskowanych przez symetryczne urządzenia NAT.
