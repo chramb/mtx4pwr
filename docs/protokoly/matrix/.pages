@@ -1,0 +1,6 @@
+# vi: ft=yaml
+nav:
+  - index.md
+  - szyfrowanie.md
+  - inne.md
+  - ...

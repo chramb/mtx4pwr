@@ -1,0 +1,6 @@
+# vi: ft=yaml
+nav:
+  - matrix
+  - ldap.md
+  - oauth.md
+  - ...
