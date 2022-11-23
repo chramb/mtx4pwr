@@ -1,6 +1,6 @@
 # vi: ft=yaml
 nav:
-  - "README.md"
+  - Wprowadzenie: "README.md"
   - "studium-wykonalnosci"
   - "case"
   - ...

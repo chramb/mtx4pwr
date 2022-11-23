@@ -1,4 +1,5 @@
-site_name: "Projekt: Matrix na PWr"
+site_name: "Projekt - Usługi i Aplikacje Multimedialne"
+#site_name: "Projekt usługi do komunikacji na Politechnice Wrocławskiej. Integracja z systemami teleinformatycznymi np. LDAP"
 theme:
   name: material
   features:
