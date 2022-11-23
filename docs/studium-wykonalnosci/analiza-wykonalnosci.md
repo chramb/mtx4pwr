@@ -11,7 +11,7 @@ Do planowania oraz podziału obowiązków planowane jest użycie narzędzia [Git
 - [X] Analiza i Opis narzędzi typu CASE
 - [X] Projekt i model wykonany przy pomocy narzędzi typu case
 - [X] Projekt fizycznej infrastruktury
-- [ ] Sposób działania (Opis) technologii wykorzystywanej w projekcie
+- [X] Sposób działania (Opis) technologii wykorzystywanej w projekcie
 - [ ] Analiza Działania w środowisku symulacyjnym
 - [ ] Wdrożenie elementów
 - [ ] Integracja z systemami teleinformatycznymi

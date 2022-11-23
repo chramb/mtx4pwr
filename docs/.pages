@@ -1,7 +1,8 @@
 # vi: ft=yaml
 nav:
-  - Wprowadzenie: "README.md"
+  - "index.md"
   - "studium-wykonalnosci"
   - "case"
-  - ...
+  - "fizyczna-infrastruktura"
+  - Protokoły: "protokoly"
 
