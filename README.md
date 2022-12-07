@@ -1,6 +1,6 @@
 
 |Projekt                 |  Usługi i aplikacje multimedialne  |                            
-|----------------------- | -------------------- | 
+|----------------------- | :--------------------: | 
 |Prowadzący:             | Kod grupy:   K02-39a
 |Mgr inż. Krzysztof Siwy | ŚR-16:10-18:45
 |                        | Sala 709 bud. C-5
