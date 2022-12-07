@@ -7,7 +7,7 @@ jest to duża instytucja (Na głównej stronie widnieje informacja o 23 817 stud
 
 Poniżej poszeżono temat oraz zaproponowano najbardziej obiecujące propozycje pomagające wdrożyć protokół matrix na tak dużą skalę w stabilny sposób. 
 
-(Propozycje te obejmują konfiguracje samego programu opisane szczegółowo w [2.5.1 Opis technologii](docs/studium-wykonalnosci/projekt-uslug/opis-technologii.md) oraz [4.4 Wykorzystywane protokoły](docs/protokoly/matrix/index.md), opis konfiguracji serwerów/serera fizycznego opisany jest w [późniejszych częściach](modele-infrastruktury.md).
+(Propozycje te obejmują konfiguracje samego programu opisane szczegółowo w [2.5.1 Opis technologii](../studium-wykonalnosci/projekt-uslug/opis-technologii.md) oraz [4.4 Wykorzystywane protokoły](../protokoly/matrix/index.md), opis konfiguracji serwerów/serera fizycznego opisany jest w [późniejszych częściach](modele-infrastruktury.md).
 
 # Problem
 ## Synapse: Monolityczny Proces
