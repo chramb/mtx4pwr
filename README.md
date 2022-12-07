@@ -1,3 +1,13 @@
+|Projekt - Usługi i aplikacje multimedialne|
+Prowadzący:
+Mgr inż. Krzysztof Siwy | Kod grupy:   K02-39a
+                          ŚR-16:10-18:45
+                            Sala 709 bud. C-5
+                             nr grupy: 6 | 
+------------ | ------------- | 
+Content Cell | Content Cell  | 
+Content Cell | Content Cell  | 
+
 # Temat Projektu:
 > Projekt usługi do komunikacji na Politechnice Wrocławskiej. Integracja z systemami teleinformatycznymi np. LDAP
 
