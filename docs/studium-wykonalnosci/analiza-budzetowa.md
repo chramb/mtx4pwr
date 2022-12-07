@@ -33,8 +33,8 @@ Zebrane w ramach programów finansujących środki, przeznaczone by zostały na 
 ## Całkowity koszt stworzenia i wypromowania usługi:
 **119 tysięcy złotych**
 ## Miesięczny koszt utrzymania usługi po jej zaprojektowaniu:
-**4 tysiące złotych** - serwer lokalny na PWr
-**6 tysięcy złotych** - hosting zewnętrzny
+- **4 tysiące złotych** serwer lokalny na PWr
+- **6 tysięcy złotych** hosting zewnętrzny
 
 
 
