@@ -31,7 +31,7 @@ Hosting i wsparcie przez firmę zewnętrzną - jako, że jest to system średnie
 # Podsumowanie
 ## Całkowity koszt stworzenia i wypromowania usługi:
 **119 tysięcy złotych**
-## Miesięczny koszt utrzymania usługi po jej ukończeniu
+## Miesięczny koszt utrzymania usługi po jej zaprojektowaniu:
 **6 tysięcy złotych**
 
 
