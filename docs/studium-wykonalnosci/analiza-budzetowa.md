@@ -27,12 +27,14 @@ Zebrane w ramach programów finansujących środki, przeznaczone by zostały na 
 - Specjalista ds. reklamy - **5 tysięcy złotych**
 3. Po zaprojektowaniu usługi:
 - Hosting i wsparcie przez firmę zewnętrzną - jako, że jest to system średniej wielkości obsługujący od  kilkunastu do kilkuset tysięcy użytkowników, o wysokiej dostępności, koszt takiej usługi jak serwer zostałby pokryty po stronie uczelni (Politechnika Wrocławska), na której ta usługa zostałaby zaimplementowana, a koszt wsparcia technicznego będzie w okolicach - **4 tysięcy złotych** - bez wsparcia w godzinach nocnych.
+- Jeśli wymagany byłby dodatkowo hosting firmy zewnętrznej, koszta hostingu i wsparcia wzrosły by do **6 tysięcy złotych**
 
 # Podsumowanie
 ## Całkowity koszt stworzenia i wypromowania usługi:
 **119 tysięcy złotych**
 ## Miesięczny koszt utrzymania usługi po jej zaprojektowaniu:
-**4 tysiące złotych**
+**4 tysiące złotych** - serwer lokalny na PWr
+**6 tysięcy złotych** - hosting zewnętrzny
 
 
 
