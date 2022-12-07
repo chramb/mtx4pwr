@@ -54,12 +54,16 @@ Oczywistym faktem jednak jest fakt, iż istnieje możliwość studiowania jedneg
 # Wymagana minimalna specyfikacja serwera na PWr
 **1. Procesor**
 - Intel Xeon-E 2136 - 6c/12t - 3.3GHz/4.5GHz
+
 **2. Pamięć**
 - 64GB DDR4 ECC 2666MHz
+-
 **3. Storage**
 - 6× 960GB SSD NVMe Soft RAID
+
 **4. Przepustowość do sieci publicznej**
 - 1Gbit/s unmetered
+
 **5. Przepustowość do sieci prywatnej**
 - 1Gbit/s unmetered
 
