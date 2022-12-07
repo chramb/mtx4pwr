@@ -30,7 +30,7 @@ podział na wydziały:
 
 ## Graficzny przykład podziału:
 
-![Graficzny Przykład podziału infrastruktury](_img/diagram-architektury.png)
+![Graficzny Przykład podziału infrastruktury](img/diagram-architektury.png)
 
 Na powyższej grafice możemy zaobserwować przykładową konfigurację tego typu. Na samej górze (3PID - Google oraz JSOS) widnieją stystemy tożsamości, z których korzystają wsztkie serwery domowe w celu uwierzytelnienia studentów. 
 
