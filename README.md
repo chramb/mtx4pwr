@@ -8,7 +8,7 @@
 |Skład grupy:            | Temat: 
 |Krzysztof Ambroży 259758| Projekt usługi do komunikacji na Politechnice Wrocławskiej.   |
 |Piotr Marecki 259451    | Integracja z systemami teleinformatycznymi np. LDAP      |
-|Data wykonania: 07.12.2022 | Etap: 6
+|Data wykonania: 07.12.2022 | Etap: 6 |
                          
 
 # Temat Projektu:
