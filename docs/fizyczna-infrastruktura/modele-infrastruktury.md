@@ -57,7 +57,7 @@ Oczywistym faktem jednak jest fakt, iż istnieje możliwość studiowania jedneg
 
 **2. Pamięć**
 - 64GB DDR4 ECC 2666MHz
--
+
 **3. Storage**
 - 6× 960GB SSD NVMe Soft RAID
 
