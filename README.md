@@ -5,10 +5,9 @@
 |                        |   nr grupy: 6        |                              
 |----------------------- | -------------------- | 
 |Skład grupy:            | Temat: 
-|Krzysztof Ambroży 259758|Projekt usługi do 
-|Piotr Marecki 259451    |komunikacji na 
-                         |Politechnice Wrocławskiej.|  
-                         | Integracja z systemami teleinformatycznymi np. LDAP  | 
+|Krzysztof Ambroży 259758|Projekt usługi do komunikacji na Politechnice Wrocławskiej.Integracja z systemami teleinformatycznymi np. LDAP  |
+|Piotr Marecki 259451    | 
+                         
 
 # Temat Projektu:
 > Projekt usługi do komunikacji na Politechnice Wrocławskiej. Integracja z systemami teleinformatycznymi np. LDAP
