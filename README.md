@@ -1,13 +1,12 @@
 
-| |Projekt - Usługi i aplikacje multimedialne|    |                            
+|Projekt - Usługi i aplikacje multimedialne|    |                            
 |----------------------- | -------------------- | 
 |Prowadzący:             | Kod grupy:   K02-39a
 |Mgr inż. Krzysztof Siwy | ŚR-16:10-18:45
 |                        | Sala 709 bud. C-5
 |                        | nr grupy: 6
 |Skład grupy:            | Temat: 
-|Krzysztof Ambroży 259758| Projekt usługi do komunikacji na Politechnice Wrocławskiej. Integracja z systemami teleinformatycznymi np. LDAP  |
-Piotr Marecki 259451    |
+|Krzysztof Ambroży 259758 Piotr Marecki 259451 | Projekt usługi do komunikacji na Politechnice Wrocławskiej. Integracja z systemami teleinformatycznymi np. LDAP  |
 |                        |
 |Data wykonania: 07.12.2022 | Etap: 6
                          
