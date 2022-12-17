@@ -30,12 +30,10 @@ markdown_extensions:
     - pymdownx.tasklist:
         custom_checkbox: true
     - tables
+    - md_in_html
     - attr_list
     - footnotes
     - pymdownx.highlight:
         anchor_linenums: true
         use_pygments: true
     - pymdownx.superfences 
-
-
-

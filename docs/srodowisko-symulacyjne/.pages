@@ -3,6 +3,5 @@ title: Środowisko Symulacyjne
 nav:
   - "index.md"
   - "instrukcja.md"
-  - "prezentacja-symulacji"
+  - "prezentacja-symulacji.md"
   - "metody-szyfrowania.md"
-  - ...
