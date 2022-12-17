@@ -6,3 +6,4 @@ docs/media/
 TODO.md
 *.bak
 *.pdf
+.obsidian/
