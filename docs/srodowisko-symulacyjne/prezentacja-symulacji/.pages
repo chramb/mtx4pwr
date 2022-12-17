@@ -1,0 +1,7 @@
+# vi: ft=yaml
+title: Prezentacja Symulacji
+nav:
+  - klient-mobilny.md
+  - klient-webowy.md
+  - weryfikacja.md
+  - ...

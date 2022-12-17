@@ -2,7 +2,7 @@
 title: Opis Technologii
 ---
 # Matrix
-![Wizualizacja protokołu](https://yuhu.ddns.net/images/service_matrix_network.png)
+<img src="https://yuhu.ddns.net/images/service_matrix_network.png" alt="Wizualizacja Protokołu">
 
 Matrix to otwarty standard i protokół komunikacyjny. Ma na celu umożliwienie bezproblemowej komunikacji w czasie rzeczywistym między różnymi dostawcami usług, w taki sam sposób, w jaki standardowa poczta e-mail (**S**imple **M**ail **T**ransfer **P**rotocol) obecnie działa w przypadku usługi przechowywania i przesyłania poczty e-mail, umożliwiając użytkownikom posiadającym konta u jednego dostawcy usług komunikacyjnych komunikowanie się z użytkownikami innego dostawcy usług za pośrednictwem czatu online, Voice over IP i wideotelefonii. Służy zatem podobnemu celowi jak protokoły takie jak XMPP, ale nie jest oparty na żadnym istniejącym protokole komunikacyjnym.
 

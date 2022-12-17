@@ -1,0 +1,8 @@
+# vi: ft=yaml
+title: Środowisko Symulacyjne
+nav:
+  - "index.md"
+  - "instrukcja.md"
+  - "prezentacja-symulacji"
+  - "metody-szyfrowania.md"
+  - ...

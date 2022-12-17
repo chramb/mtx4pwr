@@ -6,7 +6,7 @@ title: Wprowadzenie
 | Prowadzący:          | Mgr inż. Krzysztof Siwy                                                                                         |
 | Kod grupy:           | K02-39a                                                                                                         |
 | Czas i miejsce zajęć | ŚR-16:10-18:45 Sala 709 bud. C-5                                                                                |
-| Numer grupy:            | 6                                                                                                               |
+| Numer grupy:         | 6                                                                                                               |
 | Skład grupy:         | Krzysztof Ambroży 259758, Piotr Marecki 259451                                                                  |
 | Temat:               | Projekt usługi do komunikacji na Politechnice Wrocławskiej, integracja z systemami teleinformatycznymi np. OIDC |
 | Data wykonania:      | 07.12.2022                                                                                                      |

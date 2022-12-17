@@ -19,15 +19,16 @@ Projekt mogłyby również obejmować poniższe programy krajowe, których budż
 # Analiza kosztów
 
 Zebrane w ramach programów finansujących środki, przeznaczone by zostały na opłacenie odpowiednich specjalistów i reklamę produktu. 
+
 1. Pracujący przez cały okres trwania budowy projektu tzn. czterech miesięcy od poniedziałku do piątku po 8 godzin następujący specjaliści:
-- Senior Software Engineer - **18 tysięcy złotych**
-- Junior Software Engineer - **10 tysięcy złotych**
+    - Senior Software Engineer - **18 tysięcy złotych**
+    - Junior Software Engineer - **10 tysięcy złotych**
 2. Budżet na wypromowanie aplikacji w okresie ostatniego miesiąca projektowania usługi wyniósłby:
-- Reklamy w mediach społecznościowych - **2 tysiące złotych**
-- Specjalista ds. reklamy - **5 tysięcy złotych**
+    - Reklamy w mediach społecznościowych - **2 tysiące złotych**
+    - Specjalista ds. reklamy - **5 tysięcy złotych**
 3. Po zaprojektowaniu usługi:
-- Hosting i wsparcie przez firmę zewnętrzną - jako, że jest to system średniej wielkości obsługujący od  kilkunastu do kilkuset tysięcy użytkowników, o wysokiej dostępności, koszt takiej usługi jak serwer zostałby pokryty po stronie uczelni (Politechnika Wrocławska), na której ta usługa zostałaby zaimplementowana, a koszt wsparcia technicznego będzie w okolicach - **4 tysięcy złotych** - bez wsparcia w godzinach nocnych.
-- Jeśli wymagany byłby dodatkowo hosting firmy zewnętrznej, koszta hostingu i wsparcia wzrosły by do **6 tysięcy złotych**
+    - Hosting i wsparcie przez firmę zewnętrzną - jako, że jest to system średniej wielkości obsługujący od  kilkunastu do kilkuset tysięcy użytkowników, o wysokiej dostępności, koszt takiej usługi jak serwer zostałby pokryty po stronie uczelni (Politechnika Wrocławska), na której ta usługa zostałaby zaimplementowana, a koszt wsparcia technicznego będzie w okolicach - **4 tysięcy złotych** - bez wsparcia w godzinach nocnych.
+    - Jeśli wymagany byłby dodatkowo hosting firmy zewnętrznej, koszta hostingu i wsparcia wzrosły by do **6 tysięcy złotych**
 
 # Podsumowanie
 ## Całkowity koszt stworzenia i wypromowania usługi:
